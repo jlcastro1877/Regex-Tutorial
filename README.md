@@ -89,7 +89,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### Non-Capturing Groups ((?:...)) group without capturing.
 ### Named Capturing Groups make it easier to reference and work with specific captured data.
 ### These features enhance the flexibility and utility of regular expressions, especially in complex pattern matching and text extraction tasks.
-### Bracket Expressions
+## Bracket Expressions
 ### /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 ### Matches any character in the square brackets. For example [nN] [oO] matches no, nO, No, and NO. gr[ae]y matches both spellings of the word 'grey'; that is, gray and grey.
 
