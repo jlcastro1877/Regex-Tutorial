@@ -96,7 +96,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Greedy and Lazy Match
 ### /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 ### A greedy match tries to match an element as many times as possible. Whereas, a lazy match tries to match an element as few times as possible. In our example we have ? which signifies lazy quantifier. This is referred to a lazy quantifier because it causes the ### ### regularexpression engine to match as few occurances as possible. We can simply turn this lazy match into a greedy one by adding a ?.
-### Boundaries
+## Boundaries
 ### In regular expressions, boundaries are special constructs that match positions rather than characters. They are used to assert where matches should occur relative to the positions in the string, such as the start or end of a word or line. Boundaries do not consume ### characters; instead, they assert that a particular condition is met at a given position in the text.
 ### Here are some common boundary constructs: 
 ### 1. Word Boundaries: \b and \B
