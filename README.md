@@ -48,7 +48,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### (unicode): Ensures that the pattern is treated as Unicode. This is useful for working with Unicode characters and can affect how certain characters are matched.
 ### (global): In some languages or tools, this flag allows the regex to find all matches in the input string rather than stopping after the first match. This is commonly used in languages like JavaScript.
 ### Flags are typically applied at the end of the regex pattern. For instance, in JavaScript, you would use them like this: /pattern/flags. In Python, you use them as parameters in the re.compile() function, like re.compile(r'pattern', re.IGNORECASE)
-### Grouping and Capturing
+## Grouping and Capturing
 ### In regular expressions, grouping and capturing are powerful features that allow you to manage and extract parts of matched text.
 ### Grouping
 ### Grouping is done using parentheses (). It allows you to apply quantifiers to part of a regex pattern or to capture specific substrings for later use.
