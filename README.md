@@ -25,6 +25,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+###/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+###Anchors are a different breed. They do not match any character at all. Instead, they match a position before, after, or between characters. They can be used to “anchor” the regex match at a certain position. The caret ^ matches the position before the first character ###in the string. Applying ^a to abc matches a. ^b does not match abc at all, because the b cannot be matched right after the start of the string, matched by ^. See below for the inside view of the regex engine. Similarly, $ matches right after the last character in the ###string. c$ matches c in abc, while a$ does not match at all.
 
 ### Quantifiers
 
