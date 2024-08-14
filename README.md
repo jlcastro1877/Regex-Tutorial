@@ -164,8 +164,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### (?m) enables multiline mode for ^ and $.
 ### Lookaheads ((?=...), (?!...)) and lookbehinds ((?<=...), (?<!...)) are used for asserting conditions ahead or behind a position without consuming characters.
 ### These boundary constructs are crucial for precise pattern matching and text manipulation, allowing you to control where and how patterns are matched in your input.
-### Back-references
-
+## Back-references
+### Back-references are typically denoted by \n, where n is the number of the capturing group you want to reference. The numbering starts from 1, based on the order of the opening parentheses in the regex pattern.
 ## Look-ahead and Look-behind
 ### Lookahead and Lookbehind are types of lookaround assertions in regular expressions that allow you to assert conditions about the text surrounding a match, without including those surrounding parts in the match itself.
 ### Lookahead Assertions
