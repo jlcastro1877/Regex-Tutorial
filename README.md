@@ -1,12 +1,9 @@
 # Regex-Tutorial
 Tutorial that explains how a specific regular expression, or regex, functions by breaking down each part of the expression and describing what it does
-# Title (replace with your title)
-
-Introductory paragraph (replace this with your text)
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+### Regex (regular expression) is a sequence of characters that defines a search pattern. It is used for matching and manipulating text based on specific patterns, such as finding, replacing, or validating strings.
 
 ## Table of Contents
 
@@ -198,8 +195,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Lookahead checks for patterns ahead of the current position.
 ## Lookbehind checks for patterns behind the current position.
-### Both types of assertions do not consume characters in the string but assert conditions based on the surrounding text.
+
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Jorge Castro
+### git@github.com:jlcastro1877/Regex-Tutorial.git
