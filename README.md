@@ -35,7 +35,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## OR Operator
 ### /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 ### The "or" operator within a regular expression is defined using the | element. The or operator indicates that it could either of the components that we are separating with the |. For our hex value regular expression we have ([a-f0-9]{6}``|``[a-f0-9]{3}). Note the or ### operator separating these 2 components. This means that our hex value could either be 6 characters [a-f0-9]{6} or 3 characters [a-f0-9]{3}.
-### Character Classes
+## Character Classes
 ### /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 ### Character classes are components within our regular expression that tells us what type of characters to expect. In our example our character classes are confined within brackets []. For our example we have 2 character classes: [a-f0-9] and [a-f0-9] which searches ### for the same values. We will be breaking down what the characters are searching within these character classes. a-f searches for letters a-f and 0-9 searches for digits 0-9.
 
